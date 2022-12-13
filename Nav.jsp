@@ -7,7 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1> affichage bateau $[param""]</h1>
+<form action="vueServlet" method="GET">
+<input type="submit" name="demande" value="choisir transitaire">
+</form>
+
 
 </body>
 </html>
